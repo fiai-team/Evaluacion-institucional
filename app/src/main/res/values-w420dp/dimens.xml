@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="activity_bottom_margin">0dp</dimen>
+    <dimen name="activity_top_margin">0dp</dimen>
+    <dimen name="activity_left_margin">0dp</dimen>
+    <dimen name="activity_right_margin">0dp</dimen>
+    <dimen name="activity_padding">0dp</dimen>
+    <dimen name="activity_padding_top">0dp</dimen>
+    <dimen name="activity_padding_bottom">0dp</dimen>
+    <dimen name="activity_padding_left">0dp</dimen>
+    <dimen name="activity_padding_right">0dp</dimen>
+    <dimen name="activity_padding_start">0dp</dimen>
+    <dimen name="activity_padding_end">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dialog_datos_texto">28sp</dimen>
+    <dimen name="dialog_datos_imagen">300dp</dimen>
+
+    <dimen name="dialog_catedra_imagen">85dp</dimen>
+    <dimen name="dialog_catedra_texto">25sp</dimen>
+    <dimen name="dialog_catedra_margen_texto">15dp</dimen>
+
+    <dimen name="activity_main_ancho_iconos">120dp</dimen>
+    <dimen name="activity_main_power">75dp</dimen>
+    <dimen name="activity_main_texto">28sp</dimen>
+
+    <dimen name="dimen_100">150dp</dimen>
+    <dimen name="dimen_50">75dp</dimen>
+
+    <dimen name="activity_cronograma_mes">26dip</dimen>
+    <dimen name="activity_cronograma_lista_hora">120dp</dimen>
+    <dimen name="activity_cronograma_lista_ubicacion">170dp</dimen>
+    <dimen name="activity_cronograma_lista_texto">24sp</dimen>
+
+    <dimen name="activity_opciones_margin">20dp</dimen>
+    <dimen name="activity_opciones_margin_top">75dp</dimen>
+    <dimen name="activity_opciones_titulo">38sp</dimen>
+    <dimen name="activity_opciones_texto">35sp</dimen>
+
+    <dimen name="activity_video_texto_correr">75sp</dimen>
+    <dimen name="activity_video_atras">75dp</dimen>
+
+    <dimen name="texto_search">27sp</dimen>
+
+    <dimen name="powered_correo">20sp</dimen>
+    <dimen name="powered_margin_bottom">10dp</dimen>
+
+    <dimen name="catedra_margin">36dp</dimen>
+
+</resources>

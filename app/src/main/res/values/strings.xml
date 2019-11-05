@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Evaluación Institucional</string>
+    <string name="title">Evaluación Institucional</string>
+    <string name="Text1">Informe</string>
+    <string name="Text2">Mapa</string>
+    <string name="Text3">Cronograma</string>
+    <string name="Text4">Video</string>
+    <string name="Text5">Configuración</string>
+    <string name="Text6">Directorio</string>
+    <string name="Text7">Resultados</string>
+    <string name="Text8">Cátedras</string>
+    <string name="Text8i">Información de la cátedra</string>
+    <string name="Text9">Grupo de Desarrollo</string>
+    <string name="action_settings">Configuración</string>
+    <string name="fontawesome">Configuración</string>
+    <string name="description">Aplicación de Apoyo para el Proceso de Acreditación de la Universidad</string>
+
+    <!-- Iconos -->
+    <string name="fa_address_book">&#xf2b9;</string>
+    <string name="fa_book">&#xf02d;</string>
+    <string name="fa_calendar">&#xf073;</string>
+    <string name="fa_cog">&#xf013;</string>
+    <string name="fa_clock_o">&#xf017;</string>
+    <string name="fa_film">&#xf008;</string>
+    <string name="fa_graduation_cap">&#xf19d;</string>
+    <string name="fa_info_circle">&#xf05a;</string>
+    <string name="fa_institution">&#xf19c;</string>
+    <string name="fa_university">&#xf19c;</string>
+    <string name="fa_map">&#xf279;</string>
+    <string name="fa_map_marker">&#xf041;</string>
+    <string name="fa_map_o">&#xf278;</string>
+    <string name="fa_mortar_board">&#xf19d;</string>
+    <string name="fa_money">&#xf0d6;</string>
+    <string name="fa_usd">&#xf155;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_phone_square">&#xf098;</string>
+    <string name="fa_play">&#xf04b;</string>
+    <string name="fa_play_circle">&#xf144;</string>
+    <string name="fa_play_circle_o">&#xf01d;</string>
+    <string name="fa_plus">&#xf067;</string>
+    <string name="fa_plus_circle">&#xf055;</string>
+    <string name="fa_plus_square">&#xf0fe;</string>
+    <string name="fa_user">&#xf007;</string>
+    <string name="fa_user_circle">&#xf2bd;</string>
+    <string name="fa_user_circle_o">&#xf2be;</string>
+    <string name="fa_power_off">&#xf011;</string>
+    <string name="fa_user_o">&#xf2c0;</string>
+    <string name="fa_users">&#xf0c0;</string>
+    <string name="fa_search">&#xf002;</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="texto_de_carga">Extrayendo el mapa...</string>
+
+    <string name="texto_catedra">Las Cátedras Honoríficas son instituciones que se crean para promover el conocimiento sobre figuras, países, regiones o temas de particular importancia, a través del estudio y la investigación de ellas. Por lo tanto en ellas tienen que estar presentes la investigación, el postgrado y la extensión. El trabajo de las mismas deberá estar dirigido a la comunidad universitaria y la sociedad en su conjunto, las mismas se encuentran dentro del proceso de Extensión Universitaria, que por su transversalidad contempla las actividades de investigación y docencia. Las Cátedras Honoríficas contribuyen a la formación de una cultura general y a la formación y desarrollo de valores de los miembros que integran la comunidad universitaria y su entorno proyectando el quehacer de las mismas a través del desarrollo de cursos extensionistas, que tributen a la superación profesional y a la
+superación general de diversos públicos internos y externos.</string>
+
+</resources>

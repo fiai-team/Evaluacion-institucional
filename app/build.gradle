@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "uci.acreditacion"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 3
+        versionName "1.5"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/androidsvg-1.2.2-beta-1.jar')
+    compile files('libs/commons-codec-1.10.jar')
+    compile files('libs/EpubParser-1.0.9.jar')
+    compile files('libs/mapsforge-core-0.5.1.jar')
+    compile files('libs/mapsforge-map-0.5.1.jar')
+    compile files('libs/mapsforge-map-android-0.5.1.jar')
+    compile files('libs/mapsforge-map-reader-0.5.1.jar')
+    compile files('libs/sqliteassethelper-2.0.1.jar')
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:support-vector-drawable:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:support-v13:25.1.0'
+}

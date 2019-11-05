@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!--Hora-->
+
+    <FrameLayout
+        android:layout_width="@dimen/activity_cronograma_lista_hora"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00 AM"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/activity_cronograma_lista_texto" />
+
+    </FrameLayout>
+    <!--Separador-->
+    <ImageButton
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/negro"/>
+
+    <!--Actividad-->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hola"
+            android:textAlignment="center"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/activity_cronograma_lista_texto" />
+
+    </FrameLayout>
+
+    <!--Separador-->
+    <ImageButton
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/negro"/>
+
+    <!--Ubicacion-->
+
+    <FrameLayout
+        android:layout_width="@dimen/activity_cronograma_lista_ubicacion"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/locate" />
+
+            <TextView
+                android:id="@+id/locate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicacion"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:textSize="@dimen/activity_cronograma_lista_texto" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uci.acreditacion">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/description"
+        android:icon="@drawable/icono"
+        android:label="@string/title"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".ProgressIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".Principal"
+            android:label="@string/title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Video"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/Text4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".Cronograma"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/Text3"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".CronogramaDetail"
+            android:label="@string/Text3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Cronograma" />
+        </activity>
+        <activity
+            android:name=".Directorio"
+            android:label="@string/Text6">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".Informe"
+            android:label="@string/Text1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".DirectorioBusqueda"
+            android:label="@string/Text7">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Directorio" />
+        </activity>
+        <activity
+            android:name=".Mapa"
+            android:label="@string/Text2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".MapaDetail"
+            android:label="@string/Text2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Mapa" />
+        </activity>
+        <activity
+            android:name=".FIAI"
+            android:label="@string/Text9">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity
+            android:name=".Opciones"
+            android:label="@string/Text5"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Cronograma" />
+        </activity>
+        <activity
+            android:name=".Catedra"
+            android:label="@string/Text8">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Principal" />
+        </activity>
+        <activity android:name=".CatedraInfo"
+            android:label="@string/Text8i">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uci.acreditacion.Catedra" />
+        </activity>
+    </application>
+
+</manifest>

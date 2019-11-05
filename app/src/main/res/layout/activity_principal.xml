@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uci.acreditacion.Principal"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <uci.acreditacion.adapter.CircularListView
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="@dimen/activity_main_texto"
+                android:textColor="@color/colorBlanco" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UCI 2017"
+                android:textSize="@dimen/activity_main_texto"
+                android:textColor="@color/colorBlanco" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_atras"
+        android:layout_width="@dimen/activity_main_power"
+        android:layout_height="@dimen/activity_main_power"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        app:srcCompat="@drawable/power_off" />
+
+    <ImageView
+        android:id="@+id/img_grupo"
+        android:layout_width="@dimen/activity_main_power"
+        android:layout_height="@dimen/activity_main_power"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dimen_50"
+        android:padding="10dp"
+        app:srcCompat="@drawable/info_grupo" />
+
+    <!--ImageView
+        android:id="@+id/img_catedra"
+        android:layout_width="@dimen/activity_main_power"
+        android:layout_height="@dimen/activity_main_power"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dimen_100"
+        android:padding="10dp"
+        app:srcCompat="@drawable/catedra_img" /-->
+
+</FrameLayout>
